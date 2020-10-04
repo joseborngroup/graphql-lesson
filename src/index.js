@@ -47,7 +47,8 @@ client.query({
 client.writeData({
     data: {
         cartHidden: true,
-        cartItems: []
+        cartItems: [],
+        itemCount: 0
     }
 });
 
