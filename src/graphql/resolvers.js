@@ -2,7 +2,6 @@ import { gql } from 'apollo-boost';
 import { addItemToCart } from './cart.utils';
 
 export const typeDefs = gql`
-
     extend type Item {
         quantity: Int
     }
